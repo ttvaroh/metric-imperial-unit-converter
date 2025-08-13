@@ -1,6 +1,5 @@
 {
-  "name": "Scrim-s04ja66",
-  "description": "https://scrimba.com/learn-javascript-c0v/~05h/s09608losp/head",
+  "name": "unit-converter",
   "scripts": {
     "start": "vite",
     "dev": "vite",

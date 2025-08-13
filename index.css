@@ -15,7 +15,8 @@
 body {
     margin: 0;
     min-width: 500px;
-    transition: all 0.4s ease-out;
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--main-bg);
 }
 
 /* theme-switch Button */
@@ -30,7 +31,7 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
   cursor: pointer;
   z-index: 1;
 }
@@ -46,7 +47,7 @@ body {
   top: 50%;
   left: 3px;
   transform: translateY(-50%);
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 /* Changing theme-switch button background when checked */
@@ -145,4 +146,8 @@ input[type=number] {
     letter-spacing: .2px;
     text-align: center;
 
+}
+
+body, #output-container, .card {
+    transition: all 0.2s ease-out;
 }

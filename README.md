@@ -2,11 +2,11 @@
 
 This is a basic yet functional **unit conversion web app** that allows users to convert between metric and imperial systems for **length**, **volume**, and **mass**. Built with vanilla **HTML**, **CSS**, and **JavaScript**, it also features a **dark/light mode toggle** for better accessibility.
 
-🔗 **Live Site:** [https://your-deployment-link-here.com](https://your-deployment-link-here.com)
+🔗 **Live Site:** [https://tiny-liger-f2722c.netlify.app/](https://tiny-liger-f2722c.netlify.app/)
 
 ## 📸 Preview
 
-[![Unit Conversion App Screenshot](./imgs/sample.png)](https://your-deployment-link-here.com)
+[![Unit Conversion App Screenshot](./imgs/sample.png)](https://tiny-liger-f2722c.netlify.app/)
 
 > Screenshot of the app in light mode. Click to visit the live site.
 
