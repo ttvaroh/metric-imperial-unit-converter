@@ -1,0 +1,148 @@
+:root {
+    --header-text: #5A537B;
+    --res-text: #353535;
+    --main-bg: #F4F4F4;
+    --card-bg: #FFFFFF;
+}
+
+.dark {
+    --header-text: #CCC1FF;
+    --res-text: #FFFFFF;
+    --main-bg: #1F2937;
+    --card-bg: #273549; 
+}
+
+body {
+    margin: 0;
+    min-width: 500px;
+    transition: all 0.4s ease-out;
+}
+
+/* theme-switch Button */
+#theme-switch {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 40px;
+  height: 20px;
+  border-radius: 30px;
+  background-color: #333;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Making a dot switch inside the theme-switch Button */
+#theme-switch::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #EEE;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in;
+}
+
+/* Changing theme-switch button background when checked */
+#theme-switch:checked {
+  background: #03FFC0;
+}
+
+/* Changing dot switch color and moving to the right side when checked */
+#theme-switch:checked::before {
+  background: #333;
+  left: 22px;
+}
+
+
+
+.upper-container {
+    background-color: #6943FF;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    padding: 1px 20px;
+}
+
+#input-container {
+    color: white;
+    background-color: #6943FF;
+    padding-top: 20px;
+}
+
+#input-el {
+    background-color: #6943FF;
+    border: #B295FF solid 2px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    field-sizing: content;
+    min-width: 80px;
+    height: 80px;
+    color: inherit;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#convert-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #3D3D3D;
+    border: none;
+    border-radius: 3px;
+}
+
+.internal-text {
+    margin: 20px;
+}
+
+
+#output-container {
+    background-color: var(--main-bg);
+    padding: 13px 0px;
+}
+
+.card {
+    background-color: var(--card-bg);
+    padding: 16px 8px;
+    margin: 23px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.conversion-header {
+    color: var(--header-text);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: .5px;
+}
+
+.conversion-text {
+    color: var(--res-text);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: center;
+
+}
